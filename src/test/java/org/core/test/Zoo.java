@@ -3,6 +3,9 @@ package org.core.test;
 import java.util.List;
 import java.util.Set;
 
+import org.core.beans.factory.annotation.Autowired;
+import org.core.beans.util.AnnotationBeanDefinitionReader;
+
 public class Zoo {
    private List<Animal> animals;
    private Set<String> text;
@@ -20,4 +23,5 @@ public class Zoo {
    public void setText(Set<String> text){
 	   this.text=text;
    }
+
 }

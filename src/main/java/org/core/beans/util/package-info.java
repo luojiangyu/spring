@@ -5,4 +5,4 @@
  * @author weibo
  *
  */
-package org.core.beans.xml;
+package org.core.beans.util;

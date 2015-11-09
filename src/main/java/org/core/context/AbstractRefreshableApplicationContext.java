@@ -44,7 +44,7 @@ public abstract class AbstractRefreshableApplicationContext extends AbstractAppl
 
 	}
 
-	protected void loadBeanDefinitions(DefaultListableBeanFactory beanFactory) {
+	public void loadBeanDefinitions(DefaultListableBeanFactory beanFactory) {
 
 	}
 }

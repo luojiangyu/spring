@@ -5,7 +5,6 @@ import org.core.beans.io.DefaultResourceLoader;
 import org.core.beans.io.Resource;
 import org.core.beans.io.ResourceLoader;
 
-import junit.framework.Assert;
 
 public abstract class AbstractBeanDefinitionReader implements BeanDefinitionReader {
 	private ResourceLoader resourceLoader;
